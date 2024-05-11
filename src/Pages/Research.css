@@ -1,0 +1,46 @@
+.research {
+  width: 620px;
+  height: 250px;
+  margin: 4rem 3rem;
+  align-items: self-end;
+}
+
+.research-title {
+  font-size: 40px;
+  font-weight: 500;
+  color: rgb(245, 99, 15);
+}
+
+.research-info {
+  text-align: justify;
+}
+
+.research-container {
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+}
+
+.search-img {
+  width: 400px;
+  height: 350px;
+  margin-top: 8rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .research {
+    width: 100%;
+    height: auto;
+    margin: 2rem 1rem;
+  }
+
+  .research-title {
+    font-size: 30px;
+  }
+
+  .search-img {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+  }
+}

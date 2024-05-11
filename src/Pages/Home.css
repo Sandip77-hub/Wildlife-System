@@ -1,0 +1,129 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.lion_image,
+.Tiger-image,
+.Rhion-image {
+  width: 160px;
+  max-width: 300px;
+  height: 180px;
+  margin-top: 15px;
+  border-radius: 3px;
+  padding: 0 15px;
+  border-radius: 40%;
+  margin-right: 20px;
+}
+.manage_paragraph {
+  padding: 0 20px; 
+  text-align: justify; 
+  color: #000;
+  margin-top: 40px; 
+
+}
+:after, :before {
+  --tw-scale-x:1;
+  --tw-scale-y:1;
+  --tw-scroll-snap-strictness: proximity;
+  --tw-content: "";
+}
+.theme {
+  flex: 1;
+  padding: 0 20px 15px;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+}
+
+model {
+  text-align: center;
+  font-size: 1rem;
+  color: #4cd840;
+}
+
+.feature {
+  text-align: center;
+  font-size: 1.6rem;
+  color: #434747;
+  margin-top: 100px;
+}
+
+.purpose {
+  font-size: 1rem;
+  color: #000;
+  line-height: 1.5;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 768px) {
+  .container {
+      flex-direction: row;
+  }
+
+  .lion_image {
+      margin-left: auto;
+      margin-right: 20px;
+  }
+
+  .theme,
+  .model {
+      text-align: left;
+      padding: 0 20px;
+  }
+  .manage_paragraph {
+      padding: 0 150px; 
+      margin-top: 80px; 
+      white-space: pre-line; 
+    }
+}
+/* CSS */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+.typewriter {
+  overflow: hidden;
+  animation: typing 5s steps(40,end);
+  white-space: nowrap; 
+  border-right: 2px solid #000;
+  
+}
+
+
+.research-container{
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-between;
+
+
+}
+.research{
+  width: 620px;
+  height: 250px;
+  margin: 4rem 3rem;
+  align-items: self-end;
+
+  
+}
+.research-title{
+  font-size: 40px;
+  font-weight: 500;
+}
+.research-info{
+  align-content:justify;
+}
+.search-img{
+  width: 400px;
+  height: 300px;
+  margin-top:8rem
+}
